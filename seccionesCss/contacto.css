@@ -1,0 +1,45 @@
+
+.contenedorTexto{
+    font-family: 'Gideon Roman', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin: 50px;
+    padding: 50px;
+    font-size: 1.3rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px black;
+}
+.contenedorContactos{
+    display: flex;
+    width: 100%;
+}
+.contactos{
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    width: 50%;
+}
+
+.ico{
+    width: 180px;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: transform 0.3s ease-in-out;
+}
+.ico:hover{
+    transform: scale(1.2);
+    margin-bottom: 18px;
+}
+.icoW{
+    border: 6px solid black;
+}
+.iconoTex{
+    font-family: 'Gideon Roman', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin: 5px;
+    font-weight: bold;
+}

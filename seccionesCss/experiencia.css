@@ -1,0 +1,59 @@
+.contenedorExperiencia{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.contenedorMaxclem{
+    width: 500px;
+    height: auto;    
+    font-family: 'Gideon Roman', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid red;
+    background-color: black;
+    border-radius: 30px;
+}
+.nombre{
+    color: red;
+    font-size: 4rem;
+    text-align: center;
+    padding: 20px;
+}
+.subNombre{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+}
+.linkMaxclem{
+    text-decoration: none;
+    cursor: pointer;
+}
+.experienciaParrafo{
+    font-family: 'Gideon Roman', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    margin: 30px;
+}
+.experienciaUno{
+    margin: 50px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px black;
+}
+.contenedorFlecha{
+    margin-left: auto;
+    margin-right: auto;    
+    width: 200px;
+    height: 200px;
+    
+}
+.flecha{
+    border-radius: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px black;
+}

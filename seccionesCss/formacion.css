@@ -1,0 +1,117 @@
+
+.contenedorCertificados{
+display: flex;
+width: 100%;
+height: auto;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-bottom: 30px;
+}
+.certificados{
+    width: 45%;
+    height: auto;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+.certificados:hover{
+    box-shadow: 15px 15px 15px;
+}
+.contenedorDescripcionColegio{
+    width: 100%;
+    height: auto;
+}
+.descripcionColegio{
+    margin: 0 100px 10px 100px ;
+    font-family: 'Gideon Roman', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-bottom: .3rem;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    line-height: 2;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px black;
+}
+.contenedorPwfs{
+    width: 80%;
+    margin: 20px;
+}
+.pwfs{
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+    border: 5px solid black;
+}
+.contenedorProgramas{
+    width: 98%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ico{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+.ico:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 5px;
+}
+.curso{
+    color: white;
+    font-family: 'Gideon Roman', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px black;
+}
+.tituloEgg{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 720px){
+    .contenedorCertificados{
+        flex-direction: column;
+    }
+    .certificados{
+        width: 80%;
+        height: auto;
+        margin: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .certificados:hover{
+        box-shadow: 15px 15px 15px;
+    }
+    .contenedorDescripcionColegio{
+        width: 100%;
+        margin: 10px;
+    }
+    .descripcionColegio{
+        padding: 10px;
+        margin: 10px;
+    }
+    .contenedorPwfs{
+        width: 90%;
+    }
+    .pwfs{
+        margin-left: auto;
+        margin-right: auto;
+    }    
+}
+
+@media screen and (max-width: 450px){
+   
+
+}

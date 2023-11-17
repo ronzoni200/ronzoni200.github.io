@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Montserrat:ital,wght@0,300;0,700;1,200&family=Open+Sans:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../index..css">
+    <link rel="stylesheet" href="../seccionesCss/frases.css">
+    <link rel="stylesheet" href="../seccionesCss/footer.css">
+</body>
+
+<header>
+    <div class="contenedorCabezera">
+      <h1 class="tituloPrincipal">ESTO ES PARA VOS</h1>
+      <img src="../imagenes/arg.png" alt="banderaArgentica" class="bandera">
+    </div>
+
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link solapa" aria-current="page" href="../index.html">PERSONAL</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link solapa" aria-current="page" href="./formacion.html"> FORMACION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link solapa" aria-current="page" href="./contacto.html">CONTACTOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link solapa" href="./experiencia.html">EXPERIENCIA LABORAL</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="secciones/formacion.html"> <b>FRASES</b></a>
+          </li>
+      </ul>
+    </header>
+
+    
+<main class="contenedorFormulario">
+
+    <div class="contenedorTitulos">
+        <h1 class="titulo">Te esperabamos</h1>
+        <h2 class="titulo">Es el dia en que tenes que recordar algunas cosas</h2>
+    </div>
+       
+
+    <form id="miFormulario">
+        <label for="nombre" class="nom">Nombre:</label>
+        <input type="text" id="nombre" required> <br>
+        <button type="button" onclick="enviarFormulario()" class="boton">Para Mi</button>
+      </form>
+</main>
+<div id="mensaje">
+
+</div>
+
+<footer>
+    <div class="footter">
+      <p class="derechos">&copy; 2023 Ronzoni Gustavo Alejandro.</p>
+      <img src="../imagenes/idea.jpeg" alt="" class="idea">
+    </div>
+  </footer>
+
+    <script src="../seccionesJS/frases.js"></script>
+</html>
